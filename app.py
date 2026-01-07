@@ -10,9 +10,12 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-SESSION_DIR = Path("C:/Users/KIIT0001/Documents/CRO Project/outputs/session_analysis")
-EDA_DIR = Path("C:/Users/KIIT0001/Documents/CRO Project/outputs/eda")
-ITEM_DIR = Path("C:/Users/KIIT0001/Documents/CRO Project/outputs/item_funnel")
+#this lets your cloned repo give the needed output smoothly
+BASE_DIR = Path(__file__).resolve().parent
+
+SESSION_DIR = BASE_DIR / "analytics" / "session_analysis"
+EDA_DIR = BASE_DIR / "analytics" / "eda"
+ITEM_DIR = BASE_DIR / "analytics" / "item_funnel"
 
 ACCENT = "#00BFA6"
 BG = "#0E1117"
