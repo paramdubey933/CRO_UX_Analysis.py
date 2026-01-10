@@ -40,22 +40,6 @@ The goal is to demonstrate how data analytics can be used to identify UX frictio
 
 ---
 
-## Project Structure
-
-CRO_UX_Analytics/
-├── app.py # Streamlit dashboard
-├── analytics/ # Data processing & analysis scripts
-│ ├── data_cleaning.py
-│ ├── simulate_users.py
-│ ├── eda/
-│ ├── session_analysis/
-│ └── item_funnel/
-├── docs/ # SRS and documentation
-├── screenshots/ # App previews
-└── requirements.txt
-
----
-
 ## How to Run the Project
 
 1. Clone the repository:
